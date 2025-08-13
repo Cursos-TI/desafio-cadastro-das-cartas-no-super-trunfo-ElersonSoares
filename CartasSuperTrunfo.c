@@ -27,7 +27,7 @@ int main() {
 
     printf("Código da Carta (ex: A01): ");
     scanf("%3s", codigo1);
-    getchar(); // apenas aqui para limpar antes do fgets
+    getchar(); // limpar antes do fgets
 
     printf("Nome da Cidade: ");
     fgets(nomeCidade1, 50, stdin);
